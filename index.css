@@ -1,0 +1,53 @@
+*{
+    
+    background-size: cover;
+}
+body{
+    background-image: url(background.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.box{
+    height: 300px;
+    width: 400px;
+    background-color: #f4acb7;
+    box-shadow: 5px 5px 16px 0 #FFCAD4,5px 5px 16px 0 #FFCAD4;
+}
+.question{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px;
+}
+.box i{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    font-size: 1.4rem;   
+}
+.yes{
+    border: 2px solid #FF708A;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.no{
+    border: 2px solid #FF708A;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 2px;cursor: pointer;
+    height: inherit;
+    width: 30px;
+    position: relative;
+}
