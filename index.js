@@ -6,7 +6,7 @@ const mark=document.querySelector("#mark");
 const boxreact=box.getBoundingClientRect();
 const noreact=no.getBoundingClientRect();
 yes.addEventListener("click", () => {
-    question.innerHTML=("I Love you too! ");
+    question.innerHTML=("I Love you too :) ");
     mark.remove();
 });
 no.addEventListener('mouseover', () => {
